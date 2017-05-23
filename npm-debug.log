@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\js\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@4.0.5
+3 info using node@v6.10.1
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle jijin@0.0.0~prestart: jijin@0.0.0
+6 silly lifecycle jijin@0.0.0~prestart: no script for prestart, continuing
+7 info lifecycle jijin@0.0.0~start: jijin@0.0.0
+8 verbose lifecycle jijin@0.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle jijin@0.0.0~start: PATH: C:\Users\admin\AppData\Roaming\npm\node_modules\.npm_npminstall\node_modules\.4.0.5@npm\bin\node-gyp-bin;E:\js\workplace\expresswk\jijin\node_modules\.bin;E:\software\activeperl\site\bin;E:\software\activeperl\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\js\vagrant\bin;C:\Program Files\TortoiseSVN\bin;E:\software\TortoiseGit\bin;E:\js\nodejs\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm
+10 verbose lifecycle jijin@0.0.0~start: CWD: E:\js\workplace\expresswk\jijin
+11 silly lifecycle jijin@0.0.0~start: Args: [ '/d /s /c', 'node ./bin/www' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1018:11)
+12 verbose stack     at process.kill (internal/process.js:190:13)
+12 verbose stack     at process.listener (C:\Users\admin\AppData\Roaming\npm\node_modules\.npm_npminstall\node_modules\.4.0.5@npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:91:20)
+12 verbose stack     at process.emit (events.js:185:7)
+12 verbose stack     at processEmit (C:\Users\admin\AppData\Roaming\npm\node_modules\.npm_npminstall\node_modules\.4.0.5@npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (C:\Users\admin\AppData\Roaming\npm\node_modules\.npm_npminstall\node_modules\.4.0.5@npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:217:44)
+13 verbose cwd E:\js\workplace\expresswk\jijin
+14 error Windows_NT 10.0.14393
+15 error argv "E:\\js\\nodejs\\node.exe" "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "start"
+16 error node v6.10.1
+17 error npm  v4.0.5
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
